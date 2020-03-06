@@ -54,7 +54,7 @@ class TwitterStreamer:
         auth = self.twitter_auth.authenticate_twitter()
         stream = Stream(auth, listener)
 
-        stream.filter(track=hash_tag_list)
+        stream.filter(track=hash_tag_list,languages=['en'])
 
 
 class TwitterListener(StreamListener):

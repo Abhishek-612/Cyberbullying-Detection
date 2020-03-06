@@ -11,10 +11,10 @@ def clean_data(data):
 
 def remove_stopwords(text):
     import nltk
-    try:
-        nltk.data.find('tokenizers/punkt.zip')
-    except LookupError:
-        nltk.download('punkt')
+    # try:
+    #     nltk.data.find('tokenizers/punkt.zip')
+    # except LookupError:
+    #     nltk.download('punkt')
 
     stop_list = [word.replace("\n", "") for word in open('datasets/englishstop.txt')]
     texts = [word for word in nltk.word_tokenize(text.lower()) if word not in stop_list and word.isalpha()]
