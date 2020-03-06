@@ -1,3 +1,5 @@
+tweepy
+textblob
 absl-py==0.7.1
 altgraph==0.16.1
 amqp==2.5.2
