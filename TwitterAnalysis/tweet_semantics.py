@@ -2,7 +2,7 @@ def semantic_preprocess():
     semantic_dict = dict()
     line_num = 0
 
-    for line in open('NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt'):
+    for line in open('datasets/NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt'):
         if line_num > 2:
             words = line.split('\t')
             if words[0] not in semantic_dict.keys():
