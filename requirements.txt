@@ -17,7 +17,7 @@ chardet==3.0.4
 Click==7.0
 cmake==3.13.3
 colorama==0.4.1
-cryptography==2.3.1
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.15
 datadispatch==1.0.0
