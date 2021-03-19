@@ -22,7 +22,7 @@ cycler==0.10.0
 Cython==0.29.15
 datadispatch==1.0.0
 Django==3.0.3
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 dlib==19.7.0
 docutils==0.15.2
 face-recognition==1.2.3
