@@ -70,7 +70,7 @@ python-utils==2.3.0
 pytz==2018.9
 pywin32==223
 pywin32-ctypes==0.2.0
-PyYAML==5.2
+PyYAML==5.4
 Quandl==3.4.5
 redis==3.3.11
 requests==2.21.0
