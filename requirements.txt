@@ -88,7 +88,7 @@ tensorflow==2.0.0a0
 termcolor==1.1.0
 tf-estimator-nightly==1.14.0.dev2019030115
 tqdm==4.41.1
-urllib3==1.24.2
+urllib3==1.26.5
 vine==1.3.0
 Werkzeug==0.15.3
 win-inet-pton==1.1.0
