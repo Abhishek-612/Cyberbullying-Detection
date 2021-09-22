@@ -21,7 +21,7 @@ cryptography==2.3.1
 cycler==0.10.0
 Cython==0.29.15
 datadispatch==1.0.0
-Django==3.0.3
+Django==3.1.13
 djangorestframework==3.11.0
 dlib==19.7.0
 docutils==0.15.2
